@@ -418,7 +418,7 @@ RUN sudo chgrp -R 0 /home/seluser && \
     sudo chmod -R g=u /home/seluser && \
     sudo chmod -R u+x /home/seluser
 
-COPY ${ZAL_VER}.jar /home/seluser/${ZAL_VER}.jar
+COPY jalenium-3.141.59u.jar /home/seluser/jalenium-3.141.59u.jar
 
 # IMPORTANT: Using the string form `CMD "entry.sh"` without
 # brackets [] causes Docker to run your process
